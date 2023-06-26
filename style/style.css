@@ -43,6 +43,7 @@ div, span, a, ul, li, input, textarea {
   padding: 7px;
   border-radius: 5px;
   font-style: italic;
+  color: #222;
 }
 .wrapper__list-link:hover {  
   background-color: #d9deec;
