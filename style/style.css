@@ -109,3 +109,7 @@ span {
   width: auto;
   max-height: 150px;
 }
+.theme-address {
+  border-bottom: 1px solid #d9deec;
+  margin-bottom: 10px;
+}
