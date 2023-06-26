@@ -99,6 +99,7 @@ span {
 .picture__group > *:first-child {
   width: 100%;
   border-bottom: 1px solid #d9deec;
+  margin-bottom: 10px;
 }
 /* .picture__group > *:not(:first-child) {
   display: flex;
