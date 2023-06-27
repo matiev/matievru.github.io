@@ -22,3 +22,26 @@ wListLinks.forEach((item, i) => {
 });
 
 wListLinks[0].click();
+
+
+/* Modal images
+--------------------------------------- */
+let imgs = document.querySelectorAll('.picture__group-img');
+let modal = document.createElement('div');
+let imgInner = document.createElement('img');
+let close = document.createElement('div');
+modal.classList.add('modal');
+imgInner.classList.add('img__inner');
+close.classList.add('close');
+
+window.addEventListener('click', function(event) {
+  if (event.target.closest('.picture__group-img')) {
+    imgInner.src = event.target.src;
+    document.body.append(modal);
+    modal.append(imgInner);
+    modal.append(close)
+  }
+  else if (event.target.closest('.modal') && !event.target.closest('.img__inner')) {
+    modal.remove()
+  }
+});
