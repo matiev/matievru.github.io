@@ -96,12 +96,11 @@ span {
   flex-wrap: wrap;
   margin-bottom: 20px;
   gap: 20px;
-  
 }
 .picture__group > *:first-child {
   width: 100%;
   border-bottom: 1px solid #d9deec;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 /* .picture__group > *:not(:first-child) {
   display: flex;
@@ -110,7 +109,7 @@ span {
 .picture__group-img {
   width: auto;
   max-height: 150px;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 .theme-address {
   border-bottom: 1px solid #d9deec;
