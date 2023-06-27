@@ -96,6 +96,7 @@ span {
   flex-wrap: wrap;
   margin-bottom: 20px;
   gap: 20px;
+  
 }
 .picture__group > *:first-child {
   width: 100%;
