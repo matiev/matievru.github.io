@@ -128,7 +128,8 @@ span {
   align-items: center;
 }
 .img__inner {
-  max-height: calc(100% - 50px);
+  max-width: calc(100% - 56px);
+  max-height: calc(100% - 56px);
 }
 
 .close {
@@ -142,8 +143,8 @@ span {
   justify-content: center;
   align-items: center; */
   z-index: 8;
-  top: 7px;
-  right: 7px;
+  top: 10px;
+  right: 10px;
 }
 .close::before {
   content: '';
