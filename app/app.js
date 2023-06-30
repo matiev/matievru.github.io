@@ -1,3 +1,5 @@
+/* Tabs
+---------------------------------------- */
 let wListLinks = document.querySelectorAll('.wrapper__list-link');
 let wContentItems = document.querySelectorAll('.wrapper__content-item');
 
@@ -23,7 +25,8 @@ wListLinks.forEach((item, i) => {
 
 wListLinks[0].click();
 
-
+/* Modal images class
+---------------------------------------- */
 class Group {
   constructor(pictureGroup) {
     this.pictureGroup = pictureGroup,
