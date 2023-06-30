@@ -137,7 +137,7 @@ span {
   position: fixed;
   width: 46px;
   height: 46px;
-  background-color: blue;
+  background-color: #d9deec;
   /* border-radius: 5px; */
   /*   display: flex;
   justify-content: center;
@@ -145,6 +145,7 @@ span {
   z-index: 8;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 .close::before {
   content: '';
@@ -173,7 +174,8 @@ span {
   top: 50%;
   width: 46px;
   height: 46px;
-  background-color: blue;
+  background-color: #d9deec;
+  cursor: pointer;
 }
 .img__prev {
   left: 0;
