@@ -109,6 +109,7 @@ span {
 .picture__group-img {
   width: auto;
   max-height: 150px;
+  cursor: pointer;
 }
 .theme-address {
   border-bottom: 1px solid #d9deec;
