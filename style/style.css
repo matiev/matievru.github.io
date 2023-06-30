@@ -111,6 +111,9 @@ span {
   max-height: 150px;
   cursor: pointer;
 }
+.picture__group-img:hover {
+  opacity: 0.9;
+}
 .theme-address {
   border-bottom: 1px solid #d9deec;
   margin-bottom: 10px;
