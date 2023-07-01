@@ -95,23 +95,12 @@ span {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
-/*   gap: 20px; */
+  gap: 20px;
 }
-.picture__group-img:not(:last-child) {
-  margin: 0 20px 20px 0;
-}
-/* @supports(gap: 20px) {
-  .picture__group {
-    gap: 20px;
-  }
-  .picture__group-img:not(:last-child) {
-    margin: 0;
-  }
-} */
 .picture__group > *:first-child {
   width: 100%;
   border-bottom: 1px solid #d9deec;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 .picture__group > *:not(:first-child) {
   display: flex;
