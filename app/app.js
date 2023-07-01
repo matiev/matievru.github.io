@@ -44,7 +44,8 @@ class Group {
         this.slide = event.target.getAttribute('data-i');
         imgInner.src = event.target.src;
         modal.append(imgInner, close);
-        document.body.append(modal);
+        // document.body.append(modal);        
+        document.documentElement.append(modal);
         this.imageGroup = event.target.parentElement.querySelectorAll('img');
         // if (this.imageGroup.length > 1) {
         //   modal.append(imgPrev, imgNext);
