@@ -43,7 +43,7 @@ class Group {
       if (event.target.closest('img') && event.target !== imgInner) {
         this.slide = event.target.getAttribute('data-i');
         imgInner.src = event.target.src;
-        modal.append(imgInner);
+        modal.append(imgInner, close);
         document.body.append(modal);
         this.imageGroup = event.target.parentElement.querySelectorAll('img');
         // if (this.imageGroup.length > 1) {
@@ -52,7 +52,7 @@ class Group {
         // else {
         //   modal.replaceChildren(imgInner)
         // }
-        this.imageGroup.length > 1 ? modal.append(imgPrev, imgNext, close) : modal.replaceChildren(imgInner,close);
+        this.imageGroup.length > 1 ? modal.append(imgPrev, imgNext) : modal.replaceChildren(imgInner);
       }
       else if (event.target == modal || event.target == close) {
         // modal.remove()
