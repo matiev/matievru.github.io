@@ -55,7 +55,8 @@ class Group {
         this.imageGroup.length > 1 ? modal.append(imgPrev, imgNext, close) : modal.replaceChildren(imgInner,close);
       }
       else if (event.target == modal || event.target == close) {
-        modal.remove()
+        // modal.remove()
+        modal.parentElement.removeChild(modal);
       }
     });
 
