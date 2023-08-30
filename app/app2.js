@@ -45,4 +45,4 @@ window.addEventListener('click', function(event) {
     modal.remove()
   }
 });
-// clean code
+// clean
