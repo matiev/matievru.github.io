@@ -1,3 +1,5 @@
+/* Tabs
+--------------------------------------- */
 let wListLinks = document.querySelectorAll('.wrapper__list-link');
 let wContentItems = document.querySelectorAll('.wrapper__content-item');
 
