@@ -53,7 +53,7 @@ div, span, a, ul, li, input, textarea {
   background-color: #d9deec;
 } 
 
-.wrapper__content {
+.wrapper__content p {
   font-family: 'Georgia', Trebuchet MS, monospace;
   line-height: 1.5;
 }
