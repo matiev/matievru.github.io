@@ -53,6 +53,9 @@ div, span, a, ul, li, input, textarea {
   background-color: #d9deec;
 } 
 
+.wrapper__content {
+  font-family: 'Georgia', Courier, monospace;
+}
 .wrapper__content-item {
   display: flex;
   /* flex-wrap: wrap; */
