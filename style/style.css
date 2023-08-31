@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 div, span, a, ul, li, input, textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Trebuchet MS', 'Georgia', sans-serif;
   font-size: 14px;
   line-height: 1.25;
 }
