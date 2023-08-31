@@ -55,6 +55,7 @@ div, span, a, ul, li, input, textarea {
 
 .wrapper__content {
   font-family: 'Georgia', Courier, monospace;
+  line-height: 1.5;
 }
 .wrapper__content-item {
   display: flex;
