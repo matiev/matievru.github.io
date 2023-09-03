@@ -229,8 +229,8 @@ span {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .wrapper__list {
-    gap: 5px;
+    gap: 3px;
   }
 }
