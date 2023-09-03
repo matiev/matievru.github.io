@@ -123,7 +123,6 @@ span {
   margin-bottom: 10px;
 }
 
-
 .modal {
   position: fixed;
   top: 0;
@@ -146,10 +145,6 @@ span {
   width: 46px;
   height: 46px;
   background-color: #d9deec;
-  /* border-radius: 5px; */
-  /*   display: flex;
-  justify-content: center;
-  align-items: center; */
   z-index: 8;
   top: 0;
   right: 0;
@@ -232,4 +227,10 @@ span {
   width: 14px;
   height: 3px;
   transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper__list {
+    gap: 5px;
+  }
 }
