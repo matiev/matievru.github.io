@@ -231,6 +231,6 @@ span {
 
 @media screen and (max-width: 380px) {
   .wrapper__list {
-    gap: 3px;
+    gap: 2px;
   }
 }
